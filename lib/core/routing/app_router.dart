@@ -5,7 +5,8 @@ import 'package:flutter_appointment_application/features/on_borarding/on_boardin
 class AppRouter{
 
    static Route generateRoute(RouteSettings settings){
-    switch(settings.name)
+     final arguments= settings.arguments;
+     switch(settings.name)
         {
       case Routes.onBoaardingScreen:
         return MaterialPageRoute(builder: (_) => const onboardingScreen());
