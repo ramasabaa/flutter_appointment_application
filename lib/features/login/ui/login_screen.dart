@@ -127,6 +127,8 @@ class _loginScreenState extends State<loginScreen> {
                                   fontSize: 13),
                             ),
                             TextSpan(
+
+                              
                               text: ' Sign Up',
                               style: TextStyle(
                                   fontWeight: FontWeight.w600,
